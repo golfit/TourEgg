@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
+
+<Document>
+<name>TourEgg presents: TestTour2.kml</name>
+<open>1</open>
+
+ <gx:Tour>
+ <name>I'm gonna' fill your cache!  (Play me!)</name>
+  <gx:Playlist>
+   <gx:FlyTo>
+    <gx:duration>1.0</gx:duration>
+    <Camera>
+     <longitude>42.79500</longitude>
+     <latitude>9.37000</latitude>
+     <altitude>2500.00000</altitude>
+     <heading>0.0</heading>
+     <tilt>0</tilt>
+     <altitudeMode>absolute</altitudeMode>
+    </Camera>
+   </gx:FlyTo>
+
+   <gx:Wait>
+    <gx:duration>5.0</gx:duration>
+   </gx:Wait>
+
+   <gx:FlyTo>
+    <gx:duration>1.0</gx:duration>
+    <Camera>
+     <longitude>42.80254</longitude>
+     <latitude>9.37000</latitude>
+     <altitude>2500.00000</altitude>
+     <heading>0.0</heading>
+     <tilt>0</tilt>
+     <altitudeMode>absolute</altitudeMode>
+    </Camera>
+   </gx:FlyTo>
+
+   <gx:Wait>
+    <gx:duration>5.0</gx:duration>
+   </gx:Wait>
+
+   <gx:FlyTo>
+    <gx:duration>1.0</gx:duration>
+    <Camera>
+     <longitude>42.79500</longitude>
+     <latitude>9.36362</latitude>
+     <altitude>2500.00000</altitude>
+     <heading>0.0</heading>
+     <tilt>0</tilt>
+     <altitudeMode>absolute</altitudeMode>
+    </Camera>
+   </gx:FlyTo>
+
+   <gx:Wait>
+    <gx:duration>5.0</gx:duration>
+   </gx:Wait>
+
+   <gx:FlyTo>
+    <gx:duration>1.0</gx:duration>
+    <Camera>
+     <longitude>42.80254</longitude>
+     <latitude>9.36362</latitude>
+     <altitude>2500.00000</altitude>
+     <heading>0.0</heading>
+     <tilt>0</tilt>
+     <altitudeMode>absolute</altitudeMode>
+    </Camera>
+   </gx:FlyTo>
+
+   <gx:Wait>
+    <gx:duration>5.0</gx:duration>
+   </gx:Wait>
+
+   <gx:FlyTo>
+    <gx:duration>1.0</gx:duration>
+    <Camera>
+     <longitude>42.79500</longitude>
+     <latitude>9.35725</latitude>
+     <altitude>2500.00000</altitude>
+     <heading>0.0</heading>
+     <tilt>0</tilt>
+     <altitudeMode>absolute</altitudeMode>
+    </Camera>
+   </gx:FlyTo>
+
+   <gx:Wait>
+    <gx:duration>5.0</gx:duration>
+   </gx:Wait>
+
+   <gx:FlyTo>
+    <gx:duration>1.0</gx:duration>
+    <Camera>
+     <longitude>42.80254</longitude>
+     <latitude>9.35725</latitude>
+     <altitude>2500.00000</altitude>
+     <heading>0.0</heading>
+     <tilt>0</tilt>
+     <altitudeMode>absolute</altitudeMode>
+    </Camera>
+   </gx:FlyTo>
+
+   <gx:Wait>
+    <gx:duration>5.0</gx:duration>
+   </gx:Wait>
+
+  </gx:Playlist>
+ </gx:Tour>
+</Document>
+</kml>

@@ -1,0 +1,19 @@
+This code is a clone of the Google Earth (GE) Voyager program for Windows,
+with some modifications:
+
+1. The original Google Earth Voyager did a workaround for automatically
+and dynamically modifying the current view of GE by dynamically
+rewriting a .kml file at a static location, updating the coordinates
+in timed intervals according to the tour.
+	This is no longer necessary since Google Earth and .kml support
+a tour feature, so that a single .kml file can contain the whole tour.
+	An advantage of this is that the new clone can be used to generate
+a tour by someone in an area with poor connectivity; the tour can then
+be sent to a user/machine in an area with a fast connection, the cache
+generated and sent to the user who generated the original tour.
+
+2. The new program specifies a tour region by northwest and southeast
+latitutde/longitudes; the program then approximates the whole area
+inside this region, accounting for the earth's curvature.  A tour
+of the whole earth is specified by nw=[90,180], se=[-90,-180], alt=[].
+alt is the "eye altitude" as seen in Google Earth.
